@@ -12,9 +12,9 @@ package:
 
 source:
   # only pull sources after upstream PyPI release...
-  url: https://github.com/google/jax/archive/389c5a5cf55c414a4d00c961bac3a6fcf1db74f0.zip
+  url: https://github.com/google/jax/archive/034c54609c04d983de20d5b95b43c42813accfe8.zip
   # url: https://github.com/google/jax/archive/jaxlib-v{{ version }}.tar.gz
-  sha256: c684d9a2450349f3d72e1ae49f342b71f11d0c67e224f1f444e8c421fa241640
+  sha256: 88cf6af5d81f637a46c4deea0ad6e3462f583250d70cdae862364487ccedf817
   patches:
     - patches/0001-Allow-for-custom-CUDA-build.patch
 
